@@ -59,7 +59,7 @@ define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
 define('DB_RUN_MIGRATIONS', true);
 
 // Database driver: sqlite, mysql or postgres (sqlite by default)
-define('DB_DRIVER', 'sqlite');
+define('DB_DRIVER', 'mysql');
 
 // Mysql/Postgres username
 define('DB_USERNAME', 'root');
@@ -71,7 +71,7 @@ define('DB_PASSWORD', '');
 define('DB_HOSTNAME', 'localhost');
 
 // Mysql/Postgres database name
-define('DB_NAME', 'kanboard');
+define('DB_NAME', 'bpgo7p');
 
 // Mysql/Postgres custom port (null = default port)
 define('DB_PORT', null);
